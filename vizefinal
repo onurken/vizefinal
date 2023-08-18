@@ -1,0 +1,18 @@
+vize =  input("Vize notunuzu giriniz: ")
+final = input("Final notunuzu giriniz: ")
+
+ortalama = ((float(vize)*0.3) + (float(final)*0.7))
+print(f"ortalaması : {ortalama}")
+
+if ortalama <= 35  :
+    print("FF ile kaldınız")
+elif ortalama <= 50 :
+    print("Tebrikler! DD ile geçtiniz.")
+elif ortalama <= 70 :
+    print("Tebrikler! CC ile geçtiniz.")
+elif ortalama <= 85 :
+    print("Tebrikler! BB ile geçtiniz.")
+elif ortalama <= 100:
+    print("Tebrikler! AA ile geçtiniz.")
+else:
+    print("Hatalı not girildi.")
